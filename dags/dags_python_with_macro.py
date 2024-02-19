@@ -39,3 +39,5 @@ with DAG(
         
         print(prev_month_first_day)
         print(prev_month_last_day)
+
+    get_datetime_macro() >> get_datetime_cal()
